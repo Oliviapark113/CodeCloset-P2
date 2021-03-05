@@ -10,6 +10,20 @@
   align-items: center;
 }
 
+
+.checkout-summary-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  /* align-items: space-betwee;n */
+}
+
+.btn-area{
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 40em) {
   .marketing-site-hero {
     background-position: center center;
@@ -83,6 +97,10 @@
 .checkout-summary-item .item-price p {
   margin: 0;
   padding: 0;
+}
+
+.item-name {
+  text-align: center;
 }
 
 .checkout-summary-item .title {
@@ -248,4 +266,8 @@ a.checkout {
   display: block;
   width: 100%;
   font-size: 20px;
+}
+
+.sign-up{
+  width: auto;
 }
