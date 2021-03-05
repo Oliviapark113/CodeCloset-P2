@@ -23,12 +23,27 @@
   display: flex;
   flex-direction: row;
 }
-
-@media screen and (min-width: 40em) {
-  .marketing-site-hero {
-    background-position: center center;
-  }
+.cardBod{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+div.card col-6 {
+  display: grid;
+  grid-template-columns:
+    repeat( 1fr );
+  max-width: 100%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 100%;
+ 
+}
+
+
+
 
 .marketing-site-hero-content {
   max-width: 75rem;
@@ -49,10 +64,11 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 40em) {
-  .marketing-site-hero-content {
-    padding-left: 50%;
-  }
+
+
+.card-img-top{
+  height: 300px;
+  width: 360px;
 }
 
 
@@ -190,7 +206,7 @@
 }
 
 .carBod {
-  padding: 30%;
+  /* padding: 30%; */
 
 }
 
@@ -208,7 +224,7 @@ p {
 }
 
 
-.basic-card {
+/* .basic-card {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -226,21 +242,21 @@ p {
   display: flex;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr;
   margin: 0 auto;
-  width: 40%;
-}
+
+} */
 
 .basic-card> :last-child {
   margin-bottom: 0;
 }
 
-.basic-card-image {
+/* .basic-card-image {
   grid-row-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
-}
+} */
 
 
 .basic-card-content {
@@ -270,4 +286,36 @@ a.checkout {
 
 .sign-up{
   width: auto;
+}
+
+@media screen and (max-width: 740px) {
+  .checkout-summary-item{
+    font-size:18px;
+  }
+  .cardBod {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .col-6 {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+   
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
 }
