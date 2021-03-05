@@ -16,7 +16,6 @@
   flex-direction: row;
   justify-content: center;
   justify-content: space-around;
-  /* align-items: space-betwee;n */
 }
 
 .btn-area{
@@ -28,21 +27,6 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-div.card col-6 {
-  display: grid;
-  grid-template-columns:
-    repeat( 1fr );
-  max-width: 100%;
-}
-
-.col-6 {
-  flex: 0 0 50%;
-  max-width: 100%;
- 
-}
-
-
 
 
 .marketing-site-hero-content {
@@ -139,6 +123,10 @@ div.card col-6 {
   border-radius: 4%;
 }
 
+.edit{
+  height: 50px;
+  margin-left: 10px;
+}
 
 .menu-hover-lines {
   text-align: center;
@@ -306,6 +294,23 @@ a.checkout {
     align-items: center;
    
   }
+
+  .btn-area{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  
+  .remove{
+    height: 55px;
+    width: 50px;
+    padding: 0px;
+  }
+
+  .edit{
+    margin-left:0;
+  }
+
 }
 
 @media screen and (min-width: 40em) {
