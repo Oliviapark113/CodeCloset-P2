@@ -37,7 +37,7 @@ Glynis Mullan-Kwok- Back End
 Nicholas Luberda- Front End
 
 # Website Deploy Links
-GitHub: https://github.com/sawi4644/CodeCloset-P2.git
+GitHub: https://github.com/Oliviapark113/CodeCloset-P2
 
 
-Heroku: https://obscure-scrubland-41344.herokuapp.com
+Heroku: https://stormy-stream-41757.herokuapp.com/
