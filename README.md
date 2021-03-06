@@ -6,13 +6,11 @@ to shop for clothes, review and edit their cart, and finally find a fun surprise
 the closet link.
 
 
-![demo](./demo/demo.gif)
+![demo](./demo/fullview.gif)
+
 
 # Responsive in mobile
-
-![front-page](./public/img/frontpg.jpg)
-![shop-page](./public/img/tee1.jpg)
-![edit-page](./public/img/sweatshirts.jpg)
+![demo](./demo/responsive.gif)
 
 # Technologies
 HTML, CSS, JavaScript, JQuery, Foundation, Bootstrap, Fontawesome, GitHub, MySQL, JawsDB,
