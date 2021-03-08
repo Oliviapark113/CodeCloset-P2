@@ -1,3 +1,11 @@
+body{
+  padding:0;
+  margin:0;
+  
+}
+
+
+
 .marketing-site-hero {
   background: url("/img/final.gif") top right no-repeat;
   height: 25vh;
@@ -26,6 +34,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+input .form-control{
+  padding: 20px;
 }
 
 
